@@ -1,0 +1,40 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@11.0.0
+2 info using node@v20.18.1
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/container/node_modules/node/.npmrc
+5 silly config load:file:/home/container/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install node-linux-x64@16.20.2
+8 verbose argv "install" "--no-save" "node-linux-x64@16.20.2"
+9 verbose logfile logs-max:10 dir:/home/container/.npm/_logs/2025-01-02T20_16_45_354Z-
+10 verbose logfile /home/container/.npm/_logs/2025-01-02T20_16_45_354Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:300154880 maxSize:75038720 maxEntrySize:37519360
+13 silly idealTree buildDeps
+14 silly fetch manifest node-bin-setup@^1.0.0
+15 silly packumentCache full:https://registry.npmjs.org/node-bin-setup cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/node-bin-setup 456ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/node-bin-setup set size:undefined disposed:false
+18 silly fetch manifest node-linux-x64@16.20.2
+19 silly packumentCache full:https://registry.npmjs.org/node-linux-x64 cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/node-linux-x64 128ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/node-linux-x64 set size:undefined disposed:false
+22 silly placeDep ROOT node-bin-setup@1.1.3 OK for: node@16.20.2 want: ^1.0.0
+23 silly placeDep ROOT node-linux-x64@16.20.2 OK for: node@16.20.2 want: 16.20.2
+24 silly reify moves {}
+25 silly audit bulk request { 'node-bin-setup': [ '1.1.3' ], 'node-linux-x64': [ '16.20.2' ] }
+26 http cache node-linux-x64@https://registry.npmjs.org/node-linux-x64/-/node-linux-x64-16.20.2.tgz 0ms (cache hit)
+27 silly tarball no local data for node-linux-x64@https://registry.npmjs.org/node-linux-x64/-/node-linux-x64-16.20.2.tgz. Extracting by manifest.
+28 http cache node-bin-setup@https://registry.npmjs.org/node-bin-setup/-/node-bin-setup-1.1.3.tgz 0ms (cache hit)
+29 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 148ms
+30 silly audit report {}
+31 http fetch GET 200 https://registry.npmjs.org/node-linux-x64/-/node-linux-x64-16.20.2.tgz 9193ms (cache miss)
+32 silly ADD node_modules/node-linux-x64
+33 silly ADD node_modules/node-bin-setup
+34 verbose cwd /home/container/node_modules/node
+35 verbose os Linux 5.15.0-119-generic
+36 verbose node v20.18.1
+37 verbose npm  v11.0.0
+38 verbose exit 0
+39 info ok
