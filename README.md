@@ -4,8 +4,8 @@
 ## Setup
 
 ### Requreiments
-- Node.js V19+
-- Discord.js V14
+- Node.js v16+
+- Discord.js v14
 
 ### Installation
 1. Download winrar:
