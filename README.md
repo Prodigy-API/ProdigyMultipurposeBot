@@ -12,3 +12,4 @@
 2. Edit .env file
 3. Any Bot Hosting
 4. Run Dependencies `NPM Run`
+5. Start Up `index.js`
